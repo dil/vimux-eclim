@@ -13,7 +13,7 @@ This plugin assumes that your Vim configuration recognizes JUnit tests with the 
 
 ## Installation
 
-- With [vim-bundle](https://github.com/benmills/vim-bundle), `vim-bundle install dkpun/vimux-eclim`
+- With [vim-bundle](https://github.com/benmills/vim-bundle), `vim-bundle install dil/vimux-eclim`
 - With [pathogen](https://github.com/tpope/vim-pathogen), put the contents of this directory into your pathogen bundle.
 
 ## REQUIREMENTS
