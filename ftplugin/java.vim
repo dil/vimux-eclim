@@ -29,6 +29,10 @@ function s:VimuxEclimRunJUnits(...)
     let command .= ' -o ' . a:1
   end
 
+  if exists("$JUNIT_COLORIZER")
+    let command .= ' | ' . $JUNIT_COLORIZER
+  end
+
   call VimuxRunCommand(command)
 endfunction
 
